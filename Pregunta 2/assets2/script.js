@@ -1,4 +1,3 @@
-let ele = document.querySelector("#ele1")
 function pintar(color){
     ele.style.backgroundColor = color
     
