@@ -1,9 +1,12 @@
-function pintar(color){
-    let ele1 = document.querySelector("#uno")
+function pintar(ele1,color='blue'){
     ele1.style.backgroundColor = color
+    
 }
-let ele1 = document.querySelector("#uno")
-ele.addEventListener('click', pintar("black"));
+ele1 = document.getElementById("#uno")
+ele1.addEventListener("click",()=>{
+    pintar(ele1,"black")
+});
+
 
 function pintar(color){
     let ele2 = document.querySelector("#dos")
